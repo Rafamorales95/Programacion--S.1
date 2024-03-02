@@ -1,0 +1,11 @@
+nota = input('ingrese su nota del 1 al 5')
+nota = float(nota)
+
+if nota >= 5:
+    print("Su Nota Es Excelente")
+
+elif nota >= 3:
+    print("su nota es sobre saliente")
+
+elif nota >= 2:
+    print("su nota es deficiente")
